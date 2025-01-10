@@ -77,6 +77,8 @@ La aplicación estará disponible en `http://localhost:8000`
 
 - Web: `GET /` - Vista principal con tabla de clientes
 - API: `GET /api/clientes` - Retorna JSON con clientes paginados
+- API: `GET /api/clientes?search=texto` - Búsqueda en la API
+- API: `GET /api/clientes?page=2` - Paginación en la API
 
 ## Licencia
 
