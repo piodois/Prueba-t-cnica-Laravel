@@ -60,7 +60,7 @@ La aplicación estará disponible en `http://localhost:8000`
 
 - ✅ Listado de clientes paginado
 - ✅ Búsqueda por nombre, apellido y RUT
-- ✅ API REST con paginación
+- ✅ API REST básica
 - ✅ Interfaz responsiva
 - ✅ Diseño moderno con Bootstrap 5
 
@@ -77,8 +77,6 @@ La aplicación estará disponible en `http://localhost:8000`
 
 - Web: `GET /` - Vista principal con tabla de clientes
 - API: `GET /api/clientes` - Retorna JSON con clientes paginados
-- API: `GET /api/clientes?search=texto` - Búsqueda en la API
-- API: `GET /api/clientes?page=2` - Paginación en la API
 
 ## Licencia
 
