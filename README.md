@@ -80,16 +80,6 @@ La aplicación estará disponible en `http://localhost:8000`
 - API: `GET /api/clientes?search=texto` - Búsqueda en la API
 - API: `GET /api/clientes?page=2` - Paginación en la API
 
-## Mantenimiento
-
-Para limpiar el caché y reoptimizar:
-```bash
-php artisan cache:clear
-php artisan config:clear
-php artisan route:clear
-php artisan view:clear
-```
-
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
